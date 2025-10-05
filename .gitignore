@@ -1,0 +1,17 @@
+# Never commit this file
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# VSCode project files (optional)
+.vscode/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# You can keep this because you committed the FAISS index
+# If you want to ignore it later, remove the !
+!faiss_index/
